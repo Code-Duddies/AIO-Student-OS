@@ -17,6 +17,7 @@ class MainWindow(QMainWindow):
             tab.setLayout(layout)
             self.tab_widget.addTab(tab, f'Tab {i+1}')
 
+        # Sets the size of the window
         self.setGeometry(100, 100, 800, 600)
         self.show()
 
